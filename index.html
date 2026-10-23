@@ -17,8 +17,8 @@
             <a href="#" class="active">Home</a>
             <a href="#about">About</a>
             <a href="#services">Services</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Contact</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -26,7 +26,7 @@
         <div class="home-content">
             <h3>Hi, My name </h3>
             <h1>Chamika Dilshara</h1>
-            <h3>And I'm a <span>Softwear Engineer</span></h3>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
             <p>"Passionate Software Engineering student at iCET, specializing in Full-Stack Web Development, Java applications, and custom FiveM scripting. 
                 Dedicated to building smooth user interfaces, reliable backends, and high-performance digital solutions."</p>
             <div class="social-media">
@@ -53,7 +53,7 @@
             <h3>Softwear Engineer</h3>
             <p>Software Engineering student at iCET actively building practical applications in Java, Web (React, Vite, TypeScript), 
                 and FiveM scripting. I bridge academic learning with real-world project creation, focusing on solid database management, smooth user experiences, and innovative digital solutions.</p>
-            <a href="#" class="btn"></a>
+            <a href="#" class="btn">Read More</a>
         </div>
     </section>
 
@@ -86,6 +86,44 @@
             </div>
         </div>
     </section>
+
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">My <span>Projects</span></h2>
+        <p class="portfolio-status" id="portfolio-status" role="status" aria-live="polite">
+            Loading projects from GitHub...
+        </p>
+        <div class="portfolio-container" id="portfolio-container"></div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-Box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-Box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send" class="btn">
+        </form>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2026 by @Dilshara | All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-icon">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typed.js@3.0.0/dist/typed.umd.js"></script>
 
 
     <script src="main.js"></script>
